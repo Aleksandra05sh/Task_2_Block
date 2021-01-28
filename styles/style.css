@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  font-size: 0;
+}
+
+.parent-1 {
+  background-color: aqua;
+}
+
+.block {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.block-1-2-3 {
+  width: 33.33%;
+}
+
+.subparent-4-5 {
+  width: 66.66%;
+  display: inline-block;
+}
+
+.block-4-5 {
+  width: 100%;
+}
+
+.parent-2 {
+  background-color: blue;
+}
+
+.subparent-6-7-8 {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.block-6-7-8 {
+  width: 100%;
+}
+
+.parent-3 {
+  background-color: rgb(50, 177, 216);
+}
+
+.block-9 {
+  width: 33.33%;
+}
+
+.subparent-10-11-12-13 {
+  width: 66.66%;
+  display: inline-block;
+}
+
+.block-10 {
+  width: 100%;
+}
+
+.subparent-11-12-13 {
+  width: 100%;
+}
+
+.block-11 {
+  width: 50%;
+}
+
+.subparent-12-13 {
+  width: 49%;
+  display: inline-block;
+}
+
+.block-12 {
+  width: 100%;
+}
+
+.block-13 {
+  width: 100%;
+}
+
+.parent4 {
+  background-color: rgb(150, 150, 202);
+}
+
+.subparent14-15-16-17-18 {
+  width: 66.66%;
+  display: inline-block;
+}
+
+.block-14 {
+  width: 100%;
+}
+
+.subparent-15-16-17 {
+  width: 50%;
+  display: inline-block;
+}
+
+.block-18 {
+  width: 50%;
+}
+
+.block-16,
+.block-17 {
+  width: 50%;
+}
+
+.block-19 {
+  width: 33.33%;
+}
